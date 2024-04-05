@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    background-color: aquamarine;
+    background-position: center;
+
+}
+
+header {
+    padding: 20px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+nav a:hover {
+    background-color: blueviolet;
+}
+   
+
+
