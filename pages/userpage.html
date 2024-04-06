@@ -9,28 +9,53 @@
     <link rel="stylesheet" href="../styles/userpage.css">
 </head>
 <body>
+    <nav class="bg-black">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link text-white fs-2" id="nav-profile-tab" data-toggle="tab" href="adminpage.html" role="tab"
+                aria-controls="adminpage" aria-selected="false">Admin</a>
+        </div>
+    </nav>
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="#">AFOOD Restaurant </a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Ndole(better leaves, peanuts, smoke fish, meat)</a></li>
+                          <li><a class="dropdown-item" href="#">OKOK(okok leaves, grilles peanut, sugar, palm oil)</a></li>
+                          <li><a class="dropdown-item" href="#">Puff puff and Beans(flour, sugar, red beans)</a></li>
+                          <li><a class="dropdown-item" href="#">Poisson Braise(grilled fish with spices)</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div id="container">
-        <nav class="bg-light">
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="userpage.html" role="tab"
-                    aria-controls="userpage" aria-selected="true">Car Go to User Page</a>
-                    <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="adminpage.html" role="tab"
-                    aria-controls="adminpage" aria-selected="false">Go to Admin Page</a>
-            </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="userpage" role="tabpanel" aria-labelledby="nav-home-tab">
-                <p class="lead text-black">
-                    This is user Page.
-                </p>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Welcome to AFOOD Restaurant</h2>
+                <P>Here you can find all flavors and tates of the world!</P>
             </div>
         </div>
-        <footer class="bg-info text-white text-center fixed-bottom">
-            <p>Percholas</p>
-        </footer>
     </div>
-
+    <footer class="mt-5 py-3 bg-light fixed-bottom">
+        <div class="container">
+            <p class="text-muted text-center">&copy; 2024 AFOOD Restaurant . All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
